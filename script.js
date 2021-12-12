@@ -30,7 +30,6 @@ function calculateTip() {
 
     //Functions
     let total = (inputBill * percents) / inputPeople;
-    console.log(total);
     //round to two decimal places
     total = Math.round(total * 100) / 100;
     //next line allows us to always have two digits after decimal point
